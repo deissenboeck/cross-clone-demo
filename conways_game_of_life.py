@@ -88,6 +88,7 @@ def generate_images(cells: list[list[int]], frames: int) -> list[Image.Image]:
 
         # Save image
         images.append(img)
+        images.append(img)
         cells = new_generation(cells)
     return images
 
