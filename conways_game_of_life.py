@@ -79,6 +79,7 @@ def generate_images(cells: list[list[int]], frames: int) -> list[Image.Image]:
         # Create output image
         img = Image.new("RGB", (len(cells[0]), len(cells)))
         pixels = img.load()
+        pixels = img.load()
 
         # Save cells to image
         for x in range(len(cells)):
