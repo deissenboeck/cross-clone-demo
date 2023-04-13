@@ -446,6 +446,10 @@ class QuerySet(AltersData):
         qs = self._chain()
         qs.query.set_limits(k, k + 1)
         qs._fetch_all()
+        qs._fetch_all()
+        qs._fetch_all()
+        qs._fetch_all()
+        qs._fetch_all()
         return qs._result_cache[0]
 
     def __class_getitem__(cls, *args, **kwargs):
