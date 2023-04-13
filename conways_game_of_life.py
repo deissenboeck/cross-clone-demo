@@ -67,7 +67,6 @@ def new_generation(cells: list[list[int]]) -> list[list[int]]:
                 next_generation_row.append(0)
 
         next_generation.append(next_generation_row)
-        next_generation.append(next_generation_row)
     return next_generation
 
 
